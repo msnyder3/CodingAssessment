@@ -1,0 +1,161 @@
+:root {
+  --green: green;
+  --royalblue: blue;
+  --navy: navy;
+  --black: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  margin: 20px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px;
+  color: var(--green);
+  cursor: pointer;
+}
+button:active {
+  box-shadow: none;
+}
+
+header {
+  margin: 40px;
+}
+header nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav a {
+  color:var(--green);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+
+}
+header nav a:hover {
+  font-weight: bolder;
+  font-size: larger;
+
+}
+
+#landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+}
+
+#landing-page h1 {
+  font-size: 45px;
+  color: var(--royalblue);
+}
+
+#landing-page h2 {
+  padding: 10px 0;
+  color: var(--navy);
+}
+
+#landing-page h3 {
+  width: fit-content;
+  padding: 30px 0;
+  font-weight: 600;
+  font-size: larger;
+  color: var(--black);
+}
+
+#quiz-container {
+  display: flex;
+  justify-content: center;
+  margin: 70px;
+}
+
+#quiz-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.choice-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+}
+
+.choice-container .choice-btn {
+  padding: 20px 10px;
+  margin: 10px;
+}
+
+#post-quiz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+#post-quiz h1 {
+  font-size: 45px;
+  color: var(--green);
+}
+
+#post-quiz h2 {
+  padding: 10px 0;
+  color: var(--black);
+}
+
+#post-quiz label {
+  font-size: 25px;
+  margin: auto;
+  color: var(--navy);
+}
+
+#post-quiz input {
+  padding: 10px;
+  margin-left: 10px;
+  color: var(--navy);
+}
+
+.initials-container {
+  display: flex;
+  margin: 20px auto;
+}
+
+#input-submit {
+  padding: 10px 20px;
+}
+
+#high-scores-pg {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+#high-scores-pg h1 {
+  color: var(--royalblue);
+}
+
+.score-text {
+  font-size: 25px;
+  margin: 15px;
+  padding: 10px;
+  background-color: antiquewhite;
+  border: 2px solid var(--royalblue);
+  border-radius: 5px;
+}
+
+.btn-container {
+  margin: auto;
+  align-items: center;
+}
